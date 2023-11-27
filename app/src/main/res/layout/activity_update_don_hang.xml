@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateDonHang">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/update_name"
+            android:layout_marginTop="10dp"
+            android:hint="Name..."
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/update_phone"
+            android:layout_marginTop="10dp"
+            android:hint="Số Điện Thoại ..."
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+
+        <Spinner
+            android:id="@+id/spiner_status"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background_edittext"
+            android:padding="5dp"
+            android:paddingLeft="10dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/update_adress"
+            android:layout_marginTop="10dp"
+            android:hint="Địa Chỉ ..."
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"/>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/update_des"
+            android:layout_marginTop="10dp"
+            android:hint="Nội Dung..."
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/update"
+            android:layout_marginTop="10dp"
+            android:text="Update"
+            android:background="@color/pinkColor"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

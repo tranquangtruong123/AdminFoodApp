@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AdminCNPM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="quanly">Quản lý sản phẩm</string>
+    <string name="donhang">Đơn Hàng</string>
+    <string name="channel_name">Channel_Name</string>
+    <string name="channel_description">Channel_Name_1</string>
+    <string name="thongke">Thống Kê</string>
+    <string name="caidat">Tài Khoản</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="danggiao">Đang Giao</string>
+    <string name="dagiao">Đã Giao</string>
+    <string name="dahuy">Đã Hủy</string>
+    <string name="title_activity_update_booking2">UpdateBookingActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
